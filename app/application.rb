@@ -11,8 +11,10 @@ class Application
       puts resp.write "Good Afternoon!"
     end
     
+    
+    resp.finish
   end
   
-  resp.finish
+  
   
 end
